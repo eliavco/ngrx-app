@@ -1,0 +1,5 @@
+<p>{{ bill.price }}</p>
+<p>{{ bill.percentage }}</p>
+<input type="text" placeholder="price" #price>
+<input type="text" placeholder="percentage" #percentage>
+<button (click)="updateBill(price.value,percentage.value)">Update</button>

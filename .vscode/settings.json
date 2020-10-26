@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    "tsconfig.app.json": true,
+    "tsconfig.spec.json": true,
+    "package-lock.json": true,
+    "karma.conf.js": true,
+    ".vscode": true,
+    "e2e": true,
+    "node_modules": true,
+    "src/app/actions/bill.actions.spec.ts": true,
+    "src/app/components/configuration/configuration.component.spec.ts": true
+  }
+}
